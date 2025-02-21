@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Меняем padding для элементов меню
             menuItems.forEach(item => {
-                item.style.padding = "2vh"; // Меняем padding для неактивного состояния
+                item.style.padding = "3vh 2vh"; // Меняем padding для неактивного состояния
             });
         }
     }
