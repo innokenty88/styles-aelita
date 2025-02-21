@@ -11,14 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function fixMenu() {
         const headerHeight = header.offsetHeight;
+        const menuHeight = window.innerHeight - headerHeight;
 
         if (window.scrollY > headerHeight) {
-            menu.style.position = "fixed"; // Меню фиксируется в верхней части
-            menu.style.top = "0"; // Устанавливаем на верх
-            menu.style.height = `calc(100vh - ${headerHeight}px)`; // Высота меню за вычетом высоты шапки
+            menu.style.height = `${menuHeight}px`; // Устанавливаем высоту меню
         } else {
-            menu.style.position = "absolute"; // Возвращаемся к абсолютному позиционированию
-            menu.style.top = `${headerHeight}px`; // Ставим под шапкой
             menu.style.height = `calc(100vh - ${headerHeight}px)`; // Высота за вычетом шапки
         }
     }
