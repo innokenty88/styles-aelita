@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("Скрипт загружен!");
+    console.log("Скрипт загружен2!");
 
     const menu = document.querySelector(".header2");
     const header = document.querySelector(".header");
