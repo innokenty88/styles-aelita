@@ -11,15 +11,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function fixMenu() {
         const headerHeight = header.offsetHeight;
-        const menuHeight = window.innerHeight - headerHeight;
 
         if (window.scrollY > headerHeight) {
-            menu.style.height = `${menuHeight}px`; // Устанавливаем высоту меню
+            menu.style.position = "fixed";
+            menu.style.top = "0";
+            menu.style.height = "100vh";
         } else {
-            menu.style.height = `calc(100vh - ${headerHeight}px)`; // Высота за вычетом шапки
+            menu.style.position = "absolute";
+            menu.style.top = headerHeight + "px";
+            menu.style.height = calc(100vh - ${headerHeight}px);
         }
     }
 
-    window.addEventListener("scroll", fixMenu);
-    fixMenu(); // Начальная установка
+    window.addEventListener("scroll", () => {
+
+        setTimeout(fixMenu, 0);
+    });
+
+    fixMenu(); 
 });
