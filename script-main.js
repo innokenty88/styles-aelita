@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (window.scrollY > headerHeight) {
             menu.style.position = "fixed"; // Меню фиксируется в верхней части
             menu.style.top = "0"; // Устанавливаем на верх
-            menu.style.height = "calc(100vh - 0px)"; // Высота меню
+            menu.style.height = `calc(100vh - ${headerHeight}px)`; // Высота меню за вычетом высоты шапки
         } else {
             menu.style.position = "absolute"; // Возвращаемся к абсолютному позиционированию
             menu.style.top = `${headerHeight}px`; // Ставим под шапкой
