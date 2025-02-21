@@ -1,3 +1,4 @@
+console.log("Скрипт загружен!");
 document.addEventListener("DOMContentLoaded", function () {
     const menu = document.querySelector(".header2");
     const headerHeight = document.querySelector(".header").offsetHeight; // Высота шапки
