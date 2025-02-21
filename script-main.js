@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Меняем padding для элементов меню
             menuItems.forEach(item => {
-                item.style.padding = "4vh 2.5vh"; // Меняем padding для активного состояния
+                item.style.padding = "3.9vh 2.5vh"; // Меняем padding для активного состояния
             });
         } else {
             menu.style.position = "absolute"; // Возвращаемся к абсолютному позиционированию
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Меняем padding для элементов меню
             menuItems.forEach(item => {
-                item.style.padding = "3vh 2vh"; // Меняем padding для неактивного состояния
+                item.style.padding = "3.3vh 2vh"; // Меняем padding для неактивного состояния
             });
         }
     }
