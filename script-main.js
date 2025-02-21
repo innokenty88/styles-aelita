@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
         if (window.scrollY > headerHeight) {
             menu.style.position = "fixed"; // Меню фиксируется в верхней части
             menu.style.top = "0"; // Устанавливаем на верх
-            menu.style.height = "100vh"; // Высота меню
+            menu.style.height = "calc(100vh - 0px)"; // Высота меню
         } else {
             menu.style.position = "absolute"; // Возвращаемся к абсолютному позиционированию
-            menu.style.top = headerHeight + "px"; // Ставим под шапкой
+            menu.style.top = `${headerHeight}px`; // Ставим под шапкой
             menu.style.height = `calc(100vh - ${headerHeight}px)`; // Высота за вычетом шапки
         }
     }
