@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("Скрипт загружен2!");
+    console.log("Скрипт загружен!");
 
     const menu = document.querySelector(".header2");
-    const header = document.querySelector(".header");
+    const header = document.querySelector(".top.clear"); // Берем шапку по вашему классу
 
     if (!menu || !header) {
         console.error("Меню или шапка не найдены!");
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function fixMenu() {
-        const headerHeight = header.offsetHeight;
+        const headerHeight = header.offsetHeight; // Получаем высоту шапки
 
         if (window.scrollY > headerHeight) {
             menu.style.position = "fixed";
@@ -24,5 +24,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     window.addEventListener("scroll", fixMenu);
-    fixMenu(); // Вызовем сразу, чтобы меню сразу встало корректно
+    fixMenu(); // Вызываем сразу, чтобы меню правильно встало при загрузке
 });
