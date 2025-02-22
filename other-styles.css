@@ -131,6 +131,6 @@ border: 1px solid #e5e5e5 !important;
     border-radius: 5px !important;
 }
 .ufz-form .ufz-form-title {
-background: none;
+background: none !important;
         color: #1CB2E9 !important;
 }
