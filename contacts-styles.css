@@ -19,6 +19,8 @@ color: #1cb2e9 !important;
     padding: 0 25px !important;
     color: #fff !important;
     background-color: #1cb2e9 !important;
+    float: left;
+    height: auto !important;
 }
 
 .feedback {
