@@ -35,6 +35,17 @@ margin-top: 25px;
     top: auto;
 }
 
+.ufz-form .ufz-button-group .ufz-butn {
+    background-color: #1cb2e9;
+    border-radius: 15px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.ufz-form .ufz-button-group .ufz-butn:hover {
+    background-color: #00bfff;
+}
+
 h1 {
 color: #1cb2e9;
 }
