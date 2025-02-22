@@ -129,4 +129,5 @@ border-color: #1CB2E9 !important;
 
 .ufz-form .ufz-form-elem input, .ufz-form .ufz-form-captcha canvas, .ufz-form .ufz-form-elem textarea, .ufz-form .ufz-form-elem select, .ufz-question .add-ufz-question-form input:not(:disabled), .add-ufz-question-form textarea, .add-ufz-question-form select {
 border-color: #1CB2E9 !important;
+    border-radius: 5px !important;
 }
