@@ -2,12 +2,23 @@
 display: none;
 }
 
+.feedback input {
+    border: 2px solid #e5e5e5 !important;
+    height: 35px !important;
+    border-radius: 5px !important; 
+}
+
+.label a {
+color: #1cb2e9;
+}
+
 .feedback {
 margin-left: 800px !important;
 }
 
 div.feedback h2 {
 background-color: #1cb2e9 !important;
+    border-radius: unset !important;
 }
 
 .feedback {
