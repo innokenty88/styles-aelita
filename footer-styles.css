@@ -54,4 +54,7 @@ td {
 tr img {
     border-radius: 999px;
     border: 5px solid;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
