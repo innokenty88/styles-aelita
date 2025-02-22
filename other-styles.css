@@ -134,3 +134,7 @@ border: 1px solid #e5e5e5 !important;
 background: none !important;
         color: #1CB2E9 !important;
 }
+
+.ufz-form .ufz-form-title {
+padding: 0px;
+}
