@@ -36,9 +36,14 @@ margin-top: 150px;
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 }
+
 
 h1 {
 color: #1cb2e9;
