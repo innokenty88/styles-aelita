@@ -43,3 +43,17 @@ margin-top: 150px;
 h1 {
 color: #1cb2e9;
 }
+
+.voice {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.voice + * { 
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
