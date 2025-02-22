@@ -57,3 +57,7 @@ color: #1cb2e9;
     vertical-align: middle;
 }
 
+body {
+overflow: hidden;
+}
+
