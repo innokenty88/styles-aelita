@@ -74,3 +74,51 @@ color: #1cb2e9;
 font-weight: 500;
 }
 
+.ufz-question .add-ufz-question-form {
+    border-color: #1cb2e9;
+    border-radius: 10px !important;
+}
+
+.ufz-question .add-ufz-question-form .title {
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+        margin-top: -10px;
+}
+
+.title {
+background-color: #1cb2e9;
+}
+
+.ufz-question .add-ufz-question-form .title small {
+color: #fff;
+    line-height: 0;
+    font-size: 16px;
+}
+
+.ufz-question .ufz-form-group .ufz-col .ufz-butn {
+    padding: 15px !important;
+    background-color: #1CB2E9;
+}
+
+.ufz-form .ufz-file-group > div:nth-child(2) {
+    backgorund-color: #1CB2E9 !important;
+}
+
+.ufz-question .add-ufz-question-form .ufz-butn {
+border-radius: 10px;
+    padding: 15px !important;
+}
+
+.ufz-question .add-ufz-question-form input[type="checkbox"]:checked + .ufz-checkbox:before {
+    color: #1CB2E9;
+}
+
+.ufz-question .add-ufz-question-form input:not(:disabled) {
+    border: 1px solid #e5e5e5 !important;
+        border-radius: 5px;
+}
+
+.ufz-form .ufz-file-group {
+ border: 1px solid #e5e5e5 !important;
+}
