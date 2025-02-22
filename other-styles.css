@@ -138,3 +138,7 @@ background: none !important;
 .ufz-form .ufz-form-title {
 padding: 0px !important;
 }
+
+.ufz-form * {
+font-size: 16px;
+}
