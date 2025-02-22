@@ -67,6 +67,10 @@ color: #1cb2e9;
 }
 
 .ufz-question .ufz-butn:hover, .ufz-form .ufz-butn:hover {
-    background-color: #7fc7ff;
+    background-color: #7fc7ff !important;
+}
+
+.ufz-form .ufz-form-p-center p {
+font-weight: 500;
 }
 
