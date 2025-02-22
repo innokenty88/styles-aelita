@@ -1,0 +1,44 @@
+.addres {
+display: none;
+}
+
+.news_fon {
+display: none;
+}
+
+.right-col {
+display: none !important;
+}
+
+.calendar_container {
+display: none;
+}
+
+.search {
+display: none;
+}
+
+#yandex_map.yaMap_style {
+display: none;
+}
+
+.site_body2 {
+margin-top: 0px;
+}
+
+.ya-share2.ya-share2_inited {
+margin-top: 25px;
+    top: auto;
+}
+
+h1 {
+color: #1cb2e9;
+}
+
+.title {
+background-color: #1cb2e9;
+}
+
+.main_content p, .main_content span {
+color: #000 !important;
+}
