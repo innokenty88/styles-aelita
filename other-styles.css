@@ -31,8 +31,12 @@ margin-top: 500px;
 }
 
 .ya-share2.ya-share2_inited {
-margin-top: 150px;
+margin-top: 25px;
     top: auto;
+}
+
+.site_body {
+display: none;
 }
 
 h1 {
