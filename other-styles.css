@@ -54,3 +54,14 @@ h1 {
 color: #1cb2e9;
 }
 
+.ufz-question, .ufz-question *, .ufz-form, .ufz-form * {
+font-family: Gilroy;
+}
+
+.ufz-form-vote_imgs label, .ufz-form .ufz-file-group > div:nth-child(2), .ufz-form .ufz-pagination .ufz-butn, .ufz-form [data-ufz-action="logout"].ufz-butn,
+.ufz-form .ufz-butn, .ufz-question .ufz-pagination .ufz-butn, .ufz-question [data-ufz-action="logout"].ufz-butn, .ufz-question .ufz-butn {
+    border-radius: 10px;
+    background-color: #1CB2E9;
+    padding: 30px;
+}
+
