@@ -101,7 +101,7 @@ color: #fff;
     background-color: #1CB2E9 !important;
 }
 
-.ufz-form .ufz-file-group > div:nth-child(2) {
+.ufz-pagination a.active, .ufz-form .ufz-faq-btn, .ufz-form .ufz-file-group > div:nth-child(2), .ufz-question .ufz-butn, .ufz-form .ufz-butn {
     backgorund-color: #1CB2E9 !important;
 }
 
