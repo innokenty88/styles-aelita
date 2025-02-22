@@ -9,7 +9,7 @@ display: none;
 }
 
 .label a {
-color: #1cb2e9;
+color: #1cb2e9 !important;
 }
 
 .feedback {
