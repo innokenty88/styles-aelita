@@ -16,6 +16,10 @@ border: 2px solid #ededed !important;
     border-radius: 5px !important; 
 }
 
+.feedback input:not([type="checkbox"]) {
+    height: 35px !important;
+}
+
 label a {
 color: #1cb2e9 !important;
 }
