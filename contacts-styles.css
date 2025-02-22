@@ -2,6 +2,10 @@
 display: none;
 }
 
+.feedback > form {
+padding: 24px 24px 70px !important;
+}
+
 .feedback input {
     border: 2px solid #e5e5e5 !important;
     border-radius: 5px !important; 
