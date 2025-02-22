@@ -1,0 +1,60 @@
+.feedback {
+display: none;
+}
+
+.addres {
+display: none;
+}
+
+.news_fon {
+display: none;
+}
+
+.right-col {
+display: none !important;
+}
+
+.calendar_container {
+display: none;
+}
+
+.search {
+display: none;
+}
+
+#yandex_map.yaMap_style {
+display: none;
+}
+
+.site_body2 {
+margin-top: 0px;
+}
+
+.ya-share2.ya-share2_inited {
+margin-top: 50px;
+    top: auto;
+}
+
+h1 {
+color: #1cb2e9;
+}
+
+table a {
+    color: #1CB2E9;
+}
+
+.main_content p, .main_content span {
+color: #000;
+}
+
+td {
+    vertical-align: top;
+}
+
+tr img {
+    border-radius: 999px;
+    border: 5px solid;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
