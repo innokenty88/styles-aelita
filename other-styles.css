@@ -42,6 +42,10 @@ margin-top: 25px;
     transition: 0.5s;
 }
 
+.ufz-question .ufz-butn.active, .ufz-form .ufz-butn.active {
+    background-color: #00bfff;
+}
+
 .ufz-form .ufz-button-group .ufz-butn:hover {
     background-color: #00bfff;
 }
