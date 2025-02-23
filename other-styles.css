@@ -185,6 +185,7 @@ span.image_date {
 }
 
 .each_image table {
+    border: none !important;
     padding: 27px 36px 23px 0px !important;
     width: 10% !important;
 }
