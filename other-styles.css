@@ -183,3 +183,27 @@ border-radius: 100px;
 span.image_date {
     color: #1CB2E9 !important;
 }
+
+.each_image table {
+    border: 2px solid #1cb2e9 !important;
+    padding: 27px 36px 23px 0px !important;
+    width: 10% !important;
+}
+
+table.gallery_album_form tbody {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery_album_form h3 {
+color: #1CB2E9 !important;
+}
+
+table.gallery_album_form {
+margin-left: -5px;
+}
+
+.gallery_image_thumbail {
+    border: 2px solid #1cb2e9;
+    padding: 20px;
+}
