@@ -168,7 +168,7 @@ border: 1px solid #000;
 .gallery_album {
 border: none !important;
 padding: 27px 0 23px 0px !important;
-        margin-left: -20px;
+        margin-left: 0px;
 }
 
 .gallery_album_thumbail_frame img { 
