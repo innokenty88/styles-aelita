@@ -190,11 +190,6 @@ span.image_date {
     width: 10% !important;
 }
 
-table.gallery_album_form tbody {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .gallery_album_form h3 {
 color: #1CB2E9 !important;
 }
