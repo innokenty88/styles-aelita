@@ -237,6 +237,6 @@ font-weight: 500;
     color: #1CB2E9 !important;
 }
 
-.navigation_links active {
+.navigation_links:active {
    color: #70d9ff !important;
 }
