@@ -162,7 +162,8 @@ width: 22px !important;
 }
 
 .table-structure td {
-border: 1px solid #000;
+border: 1px solid #0000004d;
+    padding: 5px;
 }
 
 .gallery_album {
