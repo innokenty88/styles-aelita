@@ -11,6 +11,5 @@ document.addEventListener("DOMContentLoaded", function () {
     // Устанавливаем фиксированное позиционирование для меню
     menu.style.position = "fixed"; // Фиксируем меню
     menu.style.top = "0"; // Прижимаем к верху
-    menu.style.width = "100%"; // Ширина меню на всю ширину окна
     menu.style.zIndex = "1000"; // Убедитесь, что меню выше других элементов
 });
