@@ -14,3 +14,19 @@ p.news-description {
       font-size: 16px;
     margin-top: 75px;
 }
+
+.d7f {
+    position: relative;
+    font-family: "Gilroy", sans-serif; 
+    line-height: 1.2;
+    max-width: 360px;
+    min-width: 270px;
+    margin: auto;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    font-variant: none;
+    margin-left: 650px;
+    margin-top: -350px;
+}
