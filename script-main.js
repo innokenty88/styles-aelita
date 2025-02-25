@@ -22,8 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         } else {
             menu.style.position = "absolute"; // Возвращаемся к абсолютному позиционированию
-            menu.style.top = `${headerHeight}px`; // Устанавливаем под шапкой
-            menu.style.height = `calc(100vh - ${headerHeight}px)`; // Высота меню с учётом шапки
+            menu.style.height = `100vh`; // Высота меню с учётом шапки
 
         }
     }
