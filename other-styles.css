@@ -241,3 +241,7 @@ font-weight: 500;
 .navigation_links:active {
    color: #70d9ff !important;
 }
+
+.main_content {
+color: #000 !important;
+}
