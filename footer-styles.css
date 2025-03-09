@@ -64,4 +64,9 @@ tr img {
 width: 150px !important;
     height: 150px !important;
 }
+    tr {
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+}
 }
