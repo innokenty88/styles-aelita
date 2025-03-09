@@ -58,3 +58,10 @@ tr img {
     width: 200px;
     height: 200px;
 }
+
+@media (max-width:480px) {
+tr img {
+width: 150px !important;
+    height: 150px !important;
+}
+}
