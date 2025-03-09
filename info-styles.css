@@ -1,0 +1,9 @@
+@media(max-width: 480px) {
+.main_content {
+max-width: 380px !important;
+}
+  .main_content img{
+max-width: 380px !important;
+    max-height: 250px !important;
+}
+}
