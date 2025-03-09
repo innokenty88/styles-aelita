@@ -1,11 +1,5 @@
 @media (max-width: 480px) {
-.footer {
-        display: block !important;
-        min-width: auto !important;
-        max-width: auto !important;
-        display: flex !important;
-        flex-direction: column;
-        margin-left: 0px !important;
-margin-top: 3650px !important;
-    }
+:root * {
+display: none !important;
+}
 }
