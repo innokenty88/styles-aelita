@@ -15,6 +15,12 @@ p.news-description {
     margin-top: 75px;
 }
 
+@media (max-width: 480px) {
 .footer {
 margin-top: 3625px !important;
+}
+    .ya-share2.ya-share2_inited {
+    position: absolute !important;
+    top: 308% !important;
+}
 }
